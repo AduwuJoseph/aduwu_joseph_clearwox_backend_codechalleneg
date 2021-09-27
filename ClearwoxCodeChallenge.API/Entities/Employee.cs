@@ -8,7 +8,9 @@ namespace ClearwoxCodeChallenge.API.Entities
 {
     public class Employee
     {
+        [Key]
         public int EmployeeId { get; set; }
+        public int DeptId { get; set; }
         [StringLength(100)]
         [Required]
         public string FirstName { get; set; }
@@ -18,5 +20,6 @@ namespace ClearwoxCodeChallenge.API.Entities
         public string JobTitle { get; set; }
         public string Address { get; set; }
 
+        public virtual Department Department { get; set; }
     }
 }
