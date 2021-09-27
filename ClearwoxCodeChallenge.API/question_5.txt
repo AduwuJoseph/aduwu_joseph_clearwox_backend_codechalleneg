@@ -1,0 +1,8 @@
+﻿
+To be able to switch from the previous implementation to database implementation,
+The following things are to be considered
+
+1. A suitable database of choice for the project must have been choosen e.g MongoDB, MSSQL, PostgreSQL, MySQL, etc
+2. A suitable framework to implement the database with must have been considered too, either dapper or entity framework
+3. Implementation pattern such as Repository either generic must have been choosen
+4. To be implement the service, We create an instance of the DBContext for the database and use it together with the choosen framework to getall, insert to db, update, findbyid as the framework allows
