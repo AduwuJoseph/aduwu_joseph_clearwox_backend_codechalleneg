@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearwoxCodeChallenge.API", "ClearwoxCodeChallenge.API\ClearwoxCodeChallenge.API.csproj", "{CC816E82-954B-472C-A1AC-2C3F530CE258}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearwoxCodeChallenge.Consol", "ClearwoxCodeChallenge.Consol\ClearwoxCodeChallenge.Consol.csproj", "{241A64EC-36DE-4159-A6AC-043171BC71A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CC816E82-954B-472C-A1AC-2C3F530CE258}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC816E82-954B-472C-A1AC-2C3F530CE258}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC816E82-954B-472C-A1AC-2C3F530CE258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{241A64EC-36DE-4159-A6AC-043171BC71A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241A64EC-36DE-4159-A6AC-043171BC71A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241A64EC-36DE-4159-A6AC-043171BC71A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241A64EC-36DE-4159-A6AC-043171BC71A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
